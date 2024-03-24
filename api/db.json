@@ -1,0 +1,214 @@
+{
+  "messages": [
+    {
+      "id": 1,
+      "userId": 1,
+      "messageSend": "Evet şu anda front-end developer olarak iş arıyorum...",
+      "sendTime":"12.15",
+      "messageİncoming": "Front-end developer olarak iş arıyor musun ?",
+      "messageİncoming2": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "incomingTime":"10.25"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "messageSend": "Evet şu anda front-end developer olarak iş arıyorum...",
+      "sendTime":"12.15",
+      "messageİncoming": "Front-end developer olarak iş arıyor musun ?",
+      "messageİncoming2": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "incomingTime":"10.25"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "messageSend": "Tabiki de GitHub: https://github.com/mustafadns",
+      "sendTime":"12.15",
+      "messageİncoming": "GitHub profilini paylaşır mısın ?",
+      "messageİncoming2": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "incomingTime":"10.25"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "messageSend": "Tabiki de GitHub: https://github.com/mustafadns",
+      "sendTime":"12.15",
+      "messageİncoming": "GitHub profilini paylaşır mısın ?",
+      "messageİncoming2": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "incomingTime":"10.25"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "messageSend": "Tabiki de GitHub: https://github.com/mustafadns",
+      "sendTime":"12.15",
+      "messageİncoming": "GitHub profilini paylaşır mısın ?",
+      "messageİncoming2": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "incomingTime":"10.25"
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "messageSend": "Tabiki de Linkedln: www.linkedin.com/in/mustafadns",
+      "sendTime":"12.15",
+      "messageİncoming": "Linkedln profilini paylaşır mısın ?",
+      "messageİncoming2": "Mustafa Linkedln sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "incomingTime":"10.25"
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "messageSend": "Tabiki de Linkedln: www.linkedin.com/in/mustafadns",
+      "sendTime":"12.15",
+      "messageİncoming": "Linkedln profilini paylaşır mısın ?",
+      "messageİncoming2": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "incomingTime":"10.25"
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "messageSend": "Evet şu anda front-end developer olarak iş arıyorum...",
+      "sendTime":"12.15",
+      "messageİncoming": "Front-end developer olarak iş arıyor musun ?",
+      "messageİncoming2": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "incomingTime":"10.25"
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "messageSend": "Evet şu anda front-end developer olarak iş arıyorum...",
+      "sendTime":"12.15",
+      "messageİncoming": "Front-end developer olarak iş arıyor musun ?",
+      "messageİncoming2": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "incomingTime":"10.25"
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "messageSend": "Evet şu anda front-end developer olarak iş arıyorum...",
+      "sendTime":"12.15",
+      "messageİncoming": "Front-end developer olarak iş arıyor musun ?",
+      "messageİncoming2": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "incomingTime":"10.25"
+    },
+    {
+      "id": 11,
+      "userId": 11,
+      "messageSend": "Evet şu anda front-end developer olarak iş arıyorum...",
+      "sendTime":"12.15",
+      "messageİncoming": "Front-end developer olarak iş arıyor musun ?",
+      "messageİncoming2": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "incomingTime":"10.25"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userName": "Mustafa Danışan(Siz)",
+      "lastMessage": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "time": "11.50",
+      "totalUnhread": 1,
+      "aboutMe":"Linkedln prfofili: Mustafa Danışan",
+      "photos":"https://images.assetsdelivery.com/compings_v2/salamatik/salamatik1801/salamatik180100019.jpg"
+    },
+    {
+      "id": 2,
+      "userName": "Elon Musk",
+      "phoneNumber":"+90 537 475 9276",
+      "lastMessage": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "time": "11.50",
+      "totalUnhread": 0,
+      "aboutMe":"Linkedln prfofili: Mustafa Danışan",
+      "photos":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg/640px-Elon_Musk_Colorado_2022_%28cropped2%29.jpg"
+    },
+    {
+      "id": 3,
+      "userName": "Bill Gates",
+      "phoneNumber":"+90 537 475 9276",
+      "lastMessage": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "time": "11.50",
+      "totalUnhread": 1,
+      "aboutMe":"Linkedln prfofili: Mustafa Danışan",
+      "photos":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Bill_Gates_-_2023_-_P062021-967902_%28cropped%29.jpg/800px-Bill_Gates_-_2023_-_P062021-967902_%28cropped%29.jpg"
+    },
+    {
+      "id": 4,
+      "userName": "Steve Jobs",
+      "phoneNumber":"+90 537 475 9276",
+      "lastMessage": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "time": "11.50",
+      "totalUnhread": 1,
+      "aboutMe":"Linkedln prfofili: Mustafa Danışan",
+      "photos":"https://upload.wikimedia.org/wikipedia/commons/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg"
+    },
+    {
+      "id": 5,
+      "userName": "Jack Ma",
+      "phoneNumber":"+90 537 475 9276",
+      "lastMessage": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "time": "11.50",
+      "totalUnhread": 1,
+      "aboutMe":"Linkedln prfofili: Mustafa Danışan",
+      "photos":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Enabling_eCommerce-_Small_Enterprises%2C_Global_Players_%2839008130265%29_%28cropped%29.jpg/220px-Enabling_eCommerce-_Small_Enterprises%2C_Global_Players_%2839008130265%29_%28cropped%29.jpg"
+    },
+    {
+      "id": 6,
+      "userName": "Jeff Bezos",
+      "phoneNumber":"+90 537 475 9276",
+      "lastMessage": "Mustafa Linkedln sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "time": "11.50",
+      "totalUnhread": 1,
+      "aboutMe":"Linkedln prfofili: Mustafa Danışan",
+      "photos":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg/640px-Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg"
+    },
+    {
+      "id": 7,
+      "userName": "Marissa Ann Mayer",
+      "phoneNumber":"+90 537 475 9276",
+      "lastMessage": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "time": "11.50",
+      "totalUnhread": 1,
+      "aboutMe":"Linkedln prfofili: Mustafa Danışan",
+      "photos":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Marissa_Mayer%2C_2011_Interview_%28crop%29.jpg/640px-Marissa_Mayer%2C_2011_Interview_%28crop%29.jpg"
+    },
+    {
+      "id": 8,
+      "userName": "Mark Zuckerberg",
+      "phoneNumber":"+90 537 475 9276",
+      "lastMessage": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "time": "11.50",
+      "totalUnhread": 1,
+      "aboutMe":"Linkedln prfofili: Mustafa Danışan",
+      "photos":"https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg"
+    },
+    {
+      "id": 9,
+      "userName": "Sergey Brin",
+      "phoneNumber":"+90 537 475 9276",
+      "lastMessage": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "time": "11.50",
+      "totalUnhread": 1,
+      "aboutMe":"Linkedln prfofili: Mustafa Danışan",
+      "photos":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Sergey_Brin_Ted_2010.jpg/1200px-Sergey_Brin_Ted_2010.jpg"
+    },
+    {
+      "id": 10,
+      "userName": "Sheryl Sandberg",
+      "phoneNumber":"+90 537 475 9276",
+      "lastMessage": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "time": "11.50",
+      "totalUnhread": 1,
+      "aboutMe":"Linkedln prfofili: Mustafa Danışan",
+      "photos":"https://upload.wikimedia.org/wikipedia/commons/6/61/Sheryl_Sandberg_WEF_2013_%28crop_by_James_Tamim%29.jpg"
+    },
+    {
+      "id": 11,
+      "userName": "Tim Cook",
+      "phoneNumber":"+90 537 475 9276",
+      "lastMessage": "Mustafa GitHub sayfanı inceledim güzel projeler yapmışsın tebrik ederim",
+      "time": "11.50",
+      "totalUnhread": 1,
+      "aboutMe":"Linkedln prfofili: Mustafa Danışan",
+      "photos":"https://upload.wikimedia.org/wikipedia/commons/8/8e/Visit_of_Tim_Cook_to_the_European_Commission_-_P061904-946789.jpg"
+    }
+  ]
+}

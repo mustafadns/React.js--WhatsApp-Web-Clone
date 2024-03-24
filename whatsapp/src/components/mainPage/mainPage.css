@@ -1,0 +1,326 @@
+.noChatİmage {
+    width: 1017px;
+    height: 790px;
+    position: relative;
+    right: 11px;
+    margin: 0;
+    padding: 0;
+}
+
+.noChat {
+    margin: 0;
+    padding: 0;
+}
+
+.mainChat {
+    background-image: url('./mainImage/chat-background.jpg');
+    width: 1018px;
+    height: 715px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 11px;
+}
+
+.navbarUser {
+    height: 75px;
+    width: 1018px;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F2F5;
+    position: relative;
+    right: 11px;
+    flex-direction: row;
+}
+
+.photos {
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+    margin-left: 15px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.userNameAndTime {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.userPhotoAndNameTime {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.userName {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.userTime {
+    font-size: 14px;
+    margin-left: 15px;
+    color: gray;
+}
+
+.mainNavİcon {
+    position: absolute;
+    left: 950px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.chatInputMain {
+    background-color: #F0F2F5;
+    position: absolute;
+    bottom: 0px;
+    height: 60px;
+    width: 1018px;
+    display: flex;
+}
+
+.inputİcons {
+    margin-top: 17px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.inputMain {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.textİnput {
+    width: 880px;
+    height: 45px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.sendMessage {
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+    margin-right: 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: hsl(111, 91%, 91%);
+    padding: 10px;
+    align-self: flex-end;
+}
+
+.incomingMessage {
+    position: absolute;
+    left: 0;
+    margin-left: 60px;
+    bottom: 165px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    align-self: flex-start;
+}
+
+.incomingMessage2 {
+    position: absolute;
+    left: 0;
+    margin-left: 60px;
+    bottom: -15;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    align-self: flex-start;
+}
+
+.messageİnformation {
+    position: relative;
+    top: 600px;
+    flex-direction: column-reverse;
+}
+
+.timesText {
+    font-size: 12px;
+    position: relative;
+    left: 8px;
+    margin-left: 10px;
+    margin-right: 5px;
+    top: 12px;
+}
+
+.double-check-icons {
+    position: relative;
+    margin-right: 10px;
+    left: 5px;
+    top: 10px;
+}
+
+.personTopBg {
+    background-color: #F0F2F5;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    border-left: 1px solid rgb(165, 165, 165);
+}
+
+.PersonMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    background-color: white;
+}
+
+.personİmage {
+    margin-top: 25px;
+}
+
+.personİnformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.personNameText {
+    font-size: 24px;
+}
+
+
+.personİnformationContainer {
+    background-color: #F0F2F5;
+    height: 790px;
+    height: 715px;
+    overflow-y: auto;
+    border-left: 1px solid rgb(165, 165, 165);
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(200, 200, 200);
+    background-color: white;
+    margin-top: 15px;
+    height: 120px;
+}
+
+.aboutMee {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    margin: 15px;
+}
+
+.personPhoneNumber {
+    display: flex;
+}
+
+.personPhoneNumberText {
+    color: #a0a0a0;
+    font-size: 17px;
+}
+
+.aboutMeTitleText {
+    color: #a0a0a0;
+}
+
+.aboutMeDesc {
+    display: flex;
+    margin-top: 20px;
+}
+
+.mediaConnectvb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(200, 200, 200);
+    background-color: white;
+    margin-top: 15px;
+    height: 60px;
+}
+
+.navigatonLink {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.mediaMainText {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.mediaText {
+    color: rgb(0, 99, 0);
+}
+
+.personSelectMainOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(200, 200, 200);
+    background-color: white;
+    margin-top: 15px;
+    height: 607px;
+}
+
+.personSelectOptions {
+    margin: 15px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.selectedPersonOptions {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    cursor: pointer;
+}
+
+.optionsNameSelect {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plusMain {
+    padding: 15px;
+}
+
+.plusİconOptions {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    height: 48px;
+    align-items: center;
+}
+
+.plusİconOptions:hover {
+    background-color: #F0F2F5;
+    border-radius: 15px;
+}
+
+.plusMainContent {
+    margin-left: 25px;
+}
+
+.plusMainText {
+    font-size: 15px;
+}

@@ -1,0 +1,538 @@
+.user-list {
+    height: 634px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.user-photos {
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+    margin-top: 0.5rem;
+    margin-left: 20px;
+}
+
+.user-List-Main {
+    position: relative;
+    height: 60px;
+    display: flex;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.user-List-Main.active {
+    background-color:rgb(201, 201, 201);
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.personİmage {
+    position: relative;
+    margin-left: 10px;
+}
+
+.navbar {
+    position: fixed;
+    flex-direction: row;
+    background-color: #F0F2F5;
+    width: 487px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(202, 202, 202);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(202, 202, 202);
+}
+
+.userName {
+    position: relative;
+    left: 15px;
+    font-size: 18px;
+}
+
+.lastMessage {
+    font-size: 12px;
+    margin-left: 5px;
+    white-space: nowrap; /* Metnin kesilmeden tek satırda durmasını sağlar */
+    overflow: hidden; /* Metnin taşan kısmının gizlenmesini sağlar */
+    text-overflow: ellipsis; /* Taşan kısmın üç nokta ile gösterilmesini sağlar */
+}
+
+.double-check-icon {
+    margin-left: 10px;
+}
+
+.lasMessageAndİcon {
+    display: flex;
+    flex-direction: row;
+}
+
+.total-icons {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+
+.navbar-icon {
+    display: flex;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.searchBar {
+    width: 450px; /* Genişlik */
+    height: 40px; /* Yükseklik */
+    background-color: #F0F2F5; /* Arka plan rengi */
+    padding: 5px; /* İç boşluk */ /* Kenar yuvarlatma */
+    border-radius: 10px;
+    margin-left: -15px;
+    margin-top: 15px;
+}
+
+.searchBar input[type='search'] {
+    width: 100%; /* Input alanının genişliği searchBar'ın içine yayılacak */
+    height: 100%; /* Input alanının yüksekliği searchBar'ın yüksekliğine uyacak */
+    border: none; /* Kenar çizgisi yok */
+    outline: none; /* Odaklanma durumunda stil yok */
+    padding: 5px; /* İç boşluk */
+    border-radius: 10px; /* Kenar yuvarlatma */
+    background-color: #F0F2F5; /* Arka plan rengi */
+    font-size: 14px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+
+.iconsAndInput {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.timeAndTotalUnhread {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    flex-direction: column;
+}
+
+.timeText {
+    font-size: 14px;
+    /* color: #64A855; */
+    color: rgb(91, 91, 91);
+    /* font-weight: 500; */
+}
+
+.totalUnhreadBg {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #25D366 ;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    left: 15px;
+}
+
+.totalUnhread {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: 5px;
+}
+
+.toggleModalMain {
+    position: relative;
+    bottom: 5px;
+    top: 5px;
+}
+
+.toggleOptions {
+    font-size: 14px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+}
+
+.toggleOptions:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+.toggleOptionsDowload {
+    border-top: 1px solid rgb(168, 168, 168);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
+.toggleOptionsDowload:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+.toglleText {
+    margin-left: 15px;
+    color: rgb(112, 112, 112);
+    cursor: pointer;
+}
+
+.new-page {
+    width: 0;
+    height: 790px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 0;
+    left: 0%; /* Sayfayı başlangıçta ekranın dışında tut */
+    transition: left 2s ease;
+}
+
+.new-page-opened {
+    left: 0; /* Sayfayı ekrana getir */
+}
+
+.settingTopBg {
+    background-color: #008069;
+    height: 114px;
+    display: flex;
+    flex-direction: row;
+}
+
+.settingOptions {
+    
+    overflow-y: auto;
+    position: relative;
+    height: 622px;
+}
+
+.settingPhotos {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.settingTop {
+    margin-top: 21px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+}
+
+.settingTop:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+.settingNameAndDics {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.settingName {
+    font-size: 20px;
+}
+
+.settingDecs {
+    font-size: 14px;
+    color: gray;
+}
+
+/* .settingOptionsSelected {
+    height: 500px;
+    overflow-y: auto;
+} */
+
+.options {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow-y:auto;
+    height: 60px;
+    align-items: center;
+    border-top: 1px solid rgb(217, 217, 217);
+    cursor: pointer;
+}
+
+.options:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+.optionsİcon {
+    margin-left: 30px;
+}
+
+.optionsText {
+    color: #3B4A54;
+    margin-left: 20px;
+}
+
+.optionsTextExit {
+    color: #EA0038;
+    margin-left: 20px;
+}
+
+.chatİconBg {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #00A884;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.chatTopOptions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.chatİcon {
+    border-bottom: 1px solid gray ;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    cursor: pointer;
+}
+
+.chatİcon:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+.chatTopText {
+    color: rgb(44, 44, 44);
+    margin-left: 15px;
+}
+
+.middlewareMainText {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.newChatPersonContainer {
+    height: 675px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.newChatContainer {
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    align-items: center;
+    cursor: pointer;
+}
+
+.newChatContainer:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+.newChatUsers {
+    margin-left: 15px;
+}
+
+.newChatUserNameText {
+    font-size: 17px;
+    color: #1a1a1a;
+}
+
+.newChatUserDescText {
+    font-size: 13px;
+    color: rgb(110, 110, 110);
+}
+
+.middlewareText {
+    color: #008069;
+    margin-left: 15px;  
+}
+
+.totalPage {
+    position: relative;
+    overflow-y: auto;
+    height: 750px;
+}
+
+.settingContainer {
+    width: 32.2%;
+}
+
+.channelMainOptions {
+    margin: 40px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.channelOptionsOne {
+    display: flex;
+    position: relative;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.channelOptionsOneText {
+    font-size: 20px;
+}
+
+.channelOptionsTwo {
+    display: flex;
+    position: relative;
+    margin-left: 40px;
+}
+
+.channelOptionsTwoText {
+    font-size: 16px;
+}
+
+.buttonMain {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 450px;
+}
+
+.button {
+    border-radius: 15px;
+    width: 130px;
+    height: 40px;
+    background-color: #017561;
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+
+.button:hover {
+    background-color: #006151;
+}
+
+.statusPersonPhoto {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.statusPerson {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+}
+
+.statusPersonText1 {
+    font-size: 18px;
+}
+
+.statusPersonText2 {
+    font-size: 14px;
+}
+
+.statusPersonText {
+    margin-left: 15px;
+}
+
+.Statustitle {
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.StatustitleText {
+    color: #008069;
+}
+
+.statusContainer {
+    position: relative;
+    height: 675px;
+    overflow-y: auto;
+    width: 32.2%;
+}
+
+.statusPersonUser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 75px;
+    cursor: pointer;
+}
+
+.statusPersonUser:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+.statusPersonUserİmage {
+    position: relative;
+    margin-top: 20px
+}
+
+.statusPersonUserNameAndTime {
+    position: relative;
+    margin-left: 15px;
+}
+
+.statusPersonUserNameText {
+    font-size: 17px;
+    color: #111B21;
+}
+
+.statusPersonUserTimeText {
+    font-size: 14px;
+    color: #667781;
+}
+
+.communityİmage {
+    background-image: url('./community.png');
+    width: 32.2%;
+    height: 350px;
+}
+
+.communityTotalText {
+    width: 32.2%;
+    text-align: center;
+}
+
+.communityText1 {
+    color: black;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.communityText2 {
+    color: rgb(109, 109, 109);
+    font-size: 14px;
+}
+
+.communityMainText2 {
+    width: 67%;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.communityLink {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.communitiyAddButton {
+    position: relative;
+    top: 60px;
+}
